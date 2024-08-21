@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #46b8bf;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+header .logo {
+    width: 100px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.instagram-link {
+    display: block;
+    margin-top: 10px;
+    color: #df732c;
+    text-decoration: none;
+}
+
+.instagram-link:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.top-image,
+.bottom-image {
+    max-width: 25%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+footer {
+    background-color: #9f9180;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer .instagram-link {
+    margin-top: 10px;
+    color: white;
+}
